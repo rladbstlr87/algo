@@ -3,11 +3,11 @@
 # 입출력 예
 
 def solution(n):
+    total = 0
     n = list(map(int, str(n))) # n 을 리스트로 형변환
     for number in n:
-        sum(number)
-print(solution(n))
+        total = total + number
+    return total
 
-    #완성안됐음!!!
-# print(solution(1234))
-# print(solution(930211))
+print(solution(1234))
+print(solution(930211))
