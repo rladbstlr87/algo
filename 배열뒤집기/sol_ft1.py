@@ -1,7 +1,6 @@
 def solution(num_list):
-    answer = []
-    answer.reverse()
-    return answer
+    num_list.reverse()
+    return num_list
 
 print(solution([1, 2, 3, 4, 5]))
 print(solution([1, 1, 1, 1, 1, 2]))
