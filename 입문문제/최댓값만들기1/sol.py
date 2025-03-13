@@ -1,8 +1,5 @@
-def solution(numbers):
-    answer = 0
-    for num in numbers:
-        if num * num + 1 > num: # 
-            pass
-        else:
-            pass
-    return answer
+def solution(num_list):
+    num_list.sort()
+    return num_list[-1] * num_list[-2]
+
+print(solution([0, 31, 24, 10, 1, 9]))
